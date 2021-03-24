@@ -13,9 +13,7 @@
     var height = Math.min(win.innerHeight, 1200);
     var maxScore = 520;//最高得分
     var tempSprites = [];//临时的精灵，很快就会消失的    
-    var cdnDomain = '';
-    
-
+    var cdnDomain = '';//
     //声音
     var sucSound,failSound,bgSound;
     /*let type = "WebGL"
